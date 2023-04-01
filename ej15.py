@@ -4,7 +4,7 @@ def calculo_dosis():
     cc=int(input("Ingrese la cantidad de comprimidos que trae el envase: "))
     return (cd,xd,cc)
 
-dosis=cargo_dosis()
+dosis=calculo_dosis()
 
 print(dosis[2] >= (dosis[0]*dosis[1]))
 
